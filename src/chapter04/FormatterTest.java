@@ -15,6 +15,7 @@ public class FormatterTest {
 		String s = String.format("%s님의 점수는 %d 입니다.", name, score );
 		// %f: 실수, %d: 정수, %s: 문자열, %c: 문자...
 		System.out.println(s);
+		//09로 나오지 않고 0은 빼고 나옴
 
 	}
 
