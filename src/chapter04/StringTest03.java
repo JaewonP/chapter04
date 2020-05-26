@@ -46,25 +46,24 @@ public class StringTest03 {
 		
 		System.out.println(s6);
 		
-		//주의 : 문자열 + 연산을 할 때
+	
 //		String s7 = "";
 //		for (int i =0; i < 10; i ++) {
 //			//s7 = new StringBuffer(s7).append(i).toString(i);
 //			s7 = s7 + i;
 //		}
 //		
-//		System.out.println(s7);
-
+//		System.out.println(s7);		
 		
+		
+		//주의 : 문자열 + 연산을 할 때
 		StringBuilder sb2 = new StringBuilder("");
 		for (int i =0; i < 1000; i ++) {
 			sb2.append(i);
 		}
 		String s7 = sb2.toString();
 		System.out.println(s7.length());
-	
-	
-	
+	System.out.println('J' + "ava");
 	
 	
 	}
